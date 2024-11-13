@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M6_Form</title>
+</head>
+<body>
+    <h1>form & form's field</h1>
+    <h1>សំណុំបែបបទ & សំណុំទិន្នន័យ</h1>
+    <!-- <form action="action/be.php" method="get"></form> -->
+    <form action="action/be.php" method="post">
+        <label for="txt">ប្រអប់អត្ថបទ</label>
+        <input type="text" id="txt" name="txt">
+        <br>
+        <label for="pwd">ពាក្យសម្ងាត់</label>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+        <label for="ema">អ៊ីម៉ែល</label>
+        <input type="email" id="ema" name="ema">
+        <br>
+        <label for="num">លេខ</label>
+        <input type="number" id="num" name="num">
+        <br>
+        <label for="dat">កាលបរិច្ខេទ</label>
+        <input type="date" id="dat" name="dat">
+        <br>
+        <label for="tim">ពេលវេលា</label>
+        <input type="time" id="tim" name="tim">
+        <br>
+        <label for="col">ព៍ណ</label>
+        <input type="color", id="col", name="col">
+        <br>
+        <label for="che1">ប្រអប់ជម្រើស១</label>
+        <input type="checkbox", id="che1", name="che1">
+        <label for="che2">ប្រអប់ជម្រើស២</label>
+        <input type="checkbox", id="che2", name="che2">
+        <label for="che3">ប្រអប់ជម្រើស៣</label>
+        <input type="checkbox", id="che3", name="che3">
+        <br>
+        <label for="rad1">ប៊ូតុងជម្រើស១</label>
+        <input type="radio", id="rad1", name="rad">
+        <label for="rad2">ប៊ូតុងជម្រើស២</label>
+        <input type="radio", id="rad2", name="rad">
+        <label for="rad3">ប៊ូតុងជម្រើស៣</label>
+        <input type="radio", id="rad3", name="rad">
+        <br>
+        <label for="fil">ឯកសារ</label>
+        <input type="file", id="fil", name="fil">
+        <br>
+        <label for="tea">តំបន់អត្ថបទ</label>
+        <textarea name="tea" id="tea"></textarea>
+        <br>
+        <label for="dro">ប្រអប់ទម្លាក់ជម្រើស</label>
+        <select name="dro" id="dro">
+            <option value="">ជម្រើសទី១</option>
+            <option value="">ជម្រើសទី២</option>
+            <option value="">ជម្រើសទី៣</option>
+            <option value="">ជម្រើសទី៤</option>
+            <option value="">ជម្រើសទី៥</option>
+        </select>
+        <br>
+        <label for="lis">បញ្ជីជម្រើស</label>
+        <select name="lis" id="lis", multiple>
+            <option value="">ជម្រើសទី១</option>
+            <option value="">ជម្រើសទី២</option>
+            <option value="">ជម្រើសទី៣</option>
+            <option value="">ជម្រើសទី៤</option>
+            <option value="">ជម្រើសទី៥</option>
+        </select>
+        <br>
+        <input type="submit", id="sub", name="sub", value="បញ្ចូន">
+        <input type="button", id="but", name="but", value="ប៊ូតុង">
+        <input type="reset", id="res", name="res", value="សារដើម">
+    </form>
+</body>
+</html>
