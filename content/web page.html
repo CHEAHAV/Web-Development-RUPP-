@@ -1,80 +1,84 @@
 <!DOCTYPE html> <!-- document type HTML 5-->
 <html> <!-- html document = web page -->
 
-    <head>
-        <title>M6 - title of web page</title>
-        <meta charset="UTF-8"> <!-- use Unicode Transformation Format - 8 character set -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- use visitor's device screen as view port-->
-    </head>
-    <body>
-        <h1>Hello HTML</h1>
-        <span>Hello HTML</span>
-        <div>
-            <ol>
-                <li>Apple</li>
-                <li>Book</li>
-                <li>Car</li>
-                <li>Door</li>
-                <li>Eye</li>
-            </ol>
-        </div><br>
-        <div>
-            <ul>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-                <li>Four</li>
-                <li>Five</li>
-            </ul>
-        </div>
-        <br>
-        <table>
-            <!-- <caption> provides a title or description for the table -->
-            <caption>Monthly Expenses</caption>
-            
-            <!-- <colgroup> defines a group of columns and allows styling for them -->
-            <colgroup>
-                <col style="background-color: red">
-                <col span="2" style="background-color: yellow">
-            </colgroup>
-            
-            <!-- <thead> holds the header row(s) -->
-            <thead>
-                <tr>
-                    <th>Category</th>
-                    <th>Amount</th>
-                    <th>Date</th>
-                </tr>
-            </thead>
-            
-            <!-- <tbody> holds the main data of the table -->
-            <tbody>
-                <tr>
-                    <td>Rent</td>
-                    <td>$1200</td>
-                    <td>01/05/2023</td>
-                </tr>
-                <tr>
-                    <td>Utilities</td>
-                    <td>$150</td>
-                    <td>01/10/2023</td>
-                </tr>
-                <tr>
-                    <td>Groceries</td>
-                    <td>$300</td>
-                    <td>01/15/2023</td>
-                </tr>
-            </tbody>
-            
-            <!-- <tfoot> contains the footer row(s) -->
-            <tfoot>
-                <tr>
-                    <td><strong>Total</strong></td>
-                    <td><strong>$1650</strong></td>
-                    <td></td>
-                </tr>
-            </tfoot>
-        </table>
-        
-    </body>
+<head>
+    <title>M6 - title of web page</title>
+    <meta charset="UTF-8"> <!-- use Unicode Transformation Format - 8 character set -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- use visitor's device screen as view port-->
+    <link rel="stylesheet"type="text/css" href="../style/default.css">
+</head>
+
+<body>
+    <h1>Hello HTML</h1>
+    <span>Hello HTML</span>
+    <div>
+        <ol>
+            <li>Apple</li>
+            <li>Book</li>
+            <li>Car</li>
+            <li>Door</li>
+            <li>Eye</li>
+        </ol>
+    </div><br>
+    <div>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+        </ul>
+    </div>
+    <br>
+    <table>
+        <!-- <caption> provides a title or description for the table -->
+        <caption>Monthly Expenses</caption>
+
+        <!-- <colgroup> defines a group of columns and allows styling for them -->
+        <colgroup>
+            <col style="background-color: red">
+            <col span="2" style="background-color: yellow">
+        </colgroup>
+
+        <!-- <thead> holds the header row(s) -->
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <!-- <tbody> holds the main data of the table -->
+        <tbody>
+            <tr>
+                <td>Rent</td>
+                <td>$1200</td>
+                <td>01/05/2023</td>
+            </tr>
+            <tr>
+                <td>Utilities</td>
+                <td>$150</td>
+                <td>01/10/2023</td>
+            </tr>
+            <tr>
+                <td>Groceries</td>
+                <td>$300</td>
+                <td>01/15/2023</td>
+            </tr>
+        </tbody>
+
+        <!-- <tfoot> contains the footer row(s) -->
+        <tfoot>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$1650</strong></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
 </html>

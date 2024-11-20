@@ -1,0 +1,17 @@
+/* 
+-External Style ការរចនាក្រៅវេបផេកដោយប្រើប្រាស់វេបផេកជាច្រើន
+ប្រើប្រាស់ពុម្ពអក្សរសម្រាប់វេបផេកគឺ ជ្រើសធាតុ body មកកំណត់។
+*/
+body{
+    font-family: 'AKbalthom Kbach';
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "khmer os muol light";
+}
