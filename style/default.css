@@ -1,9 +1,33 @@
 /* 
 -External Style ការរចនាក្រៅវេបផេកដោយប្រើប្រាស់វេបផេកជាច្រើន
 ប្រើប្រាស់ពុម្ពអក្សរសម្រាប់វេបផេកគឺ ជ្រើសធាតុ body មកកំណត់។
+
+Block : ពីលើចុះក្រោម
+Inline : ពីឆ្វេងទៅស្ដាំ
+position : relative : គម្លាតចម្ងាយពីធាតុចាស់
+position : absolute : គម្លាតចម្លាយពីផ្ទៃទស្សនា
+position : static : លំនាំដើម
+position : fixed : bottom : 0px : នឹងថ្កល់
 */
 body{
     font-family: 'AKbalthom Kbach';
+    background-color: cyan;
+    width: auto;
+    border: 10px, solid, gold;
+    margin-left: 300px;
+}
+option{
+    font-family: "khmer os content";
+}
+input{
+    font-family: "khmer os content";
+}
+select{
+    font-family: "khmer os content";
+}
+label{
+    margin-left: 10px;
+    line-height: 50px;
 }
 a{
     color: black;
@@ -14,4 +38,81 @@ a:hover{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "khmer os muol light";
+    text-transform: uppercase;
+}
+.rupp{
+    width: 65%;
+    height: 35%;
+    /* border-width: 5px;
+    border-style: double;
+    border-color: gold; */
+    padding: 5px;
+    border: 5px, double, gold;
+    border-radius: 60px;
+    box-shadow: 10px 5px 3px gold;
+}
+#circle{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+#h-elipse{
+    border-radius: 50%;
+}
+#v-elipse{
+    height: 500px;
+    width: 350px;
+    border-radius: 50%;
+}
+#form{
+    margin-left: 60px;
+}
+#data{
+    margin-left: 13px;
+}
+#pwd{
+    margin-left: 70px;
+}
+#ema{
+    margin-left: 100px;
+}
+#txt{
+    margin-left: 69px;
+}
+#num{
+    margin-left: 107px;
+}
+#dat{
+    margin-left: 68px;
+}
+#tim{
+    margin-left: 75px;
+}
+#col{
+    margin-left: 105px;
+}
+#fil{
+    margin-left: 90px;
+}
+#tea{
+    margin-left: 62px;
+}
+#dro{
+    margin-left: 17px;
+}
+#lis{
+    margin-left: 60px;
+}
+#sub{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+#but{
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+#res{
+    margin-left: 120px;
+    margin-bottom: 10px;
 }
