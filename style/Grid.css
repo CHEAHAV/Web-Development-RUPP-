@@ -1,0 +1,31 @@
+/* Fraction unit ភាគ
+   ដើម្បីចែកភាគទទឹងជួរដេកយើងត្រូវបូកបញ្ចូលគ្នាសិន 
+   grid-template-columns មានទាំងអស់ 12ភាគ
+   grid-template-columns មានទាំងអស់ 3 ជួរឈ 
+   ជួរឈ ទី ១ 2fr
+   ជួរឈ ទី ២ 8fr
+   ជួរឈ ទី ៣ 2fr
+*/
+#container {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+}
+
+#header {
+    background-color: greenyellow;
+    grid-column: span 3;
+    height: 15vh;
+}
+
+#left,
+#right {
+    background-color: yellow;
+}
+
+#main {
+    background-color: pink;
+}
+
+#footer {
+    background-color: violet;
+}

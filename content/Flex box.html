@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <link rel="stylesheet" href="../style/default.css">
+</head>
+<!-- ធាតុរចនាក្នុងវេបផេក -->
+<style>
+    a {
+        background-color: lightgray;
+        border-radius: 8px;
+        padding: 8px, 16px;
+    }
+
+    body {
+        background-color: white;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #five a {
+        margin-right: 25px;
+    }
+
+    #sex a {
+        margin-bottom: 16px;
+        width: 80px;
+        text-align: center;
+    }
+
+    #sex a:last-child {
+        margin-bottom: 0px;
+    }
+</style>
+
+<body>
+    <h1>Flex box layout</h1>
+    <nav style="display: flex; justify-content : end">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav style="display: flex; justify-content : center">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav style="display: flex; justify-content : start">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav style="display: flex; justify-content : space-evenly">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav style="display: flex; justify-content : space-between">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav style="display: flex; justify-content : space-around">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav id="five" style="display: flex;">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+    <nav id="sex" style="display: flex; flex-direction : column">
+        <a href="">link one</a>
+        <a href="">link two</a>
+        <a href="">link three</a>
+        <a href="">link four</a>
+        <a href="">link five</a>
+    </nav>
+    <hr>
+</body>
+
+</html>
