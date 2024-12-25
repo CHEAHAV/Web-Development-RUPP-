@@ -15,17 +15,25 @@
     background-color: greenyellow;
     grid-column: span 3;
     height: 15vh;
+    text-align: center;
 }
 
-#left,
-#right {
+#left, #right {
     background-color: yellow;
+    height: 70vh;
+    text-align: center;
+
 }
 
 #main {
     background-color: pink;
+    height: 70vh;
+    text-align: center;
 }
 
 #footer {
     background-color: violet;
+    grid-column: span 3;
+    height: 15vh;
+    text-align: center;
 }
